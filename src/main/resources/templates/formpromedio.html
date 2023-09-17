@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/style/bootstrap/bootstrap.css}" rel="stylesheet">
+    <script type="text/javascript" th:src="@{/script/bootstrap/bootstrap.bundle.js}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="header">
+            Cálculo promedio cibertec
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="txtcl1" placeholder="Ingrese nota 1">
+                    <label for="txtcl1">Ingrese nota CL1</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="txtcl2" placeholder="Ingrese nota 2">
+                    <label for="txtcl2">Ingrese nota CL2</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="txtcl3" placeholder="Ingrese nota 3">
+                    <label for="txtcl3">Ingrese nota CL3</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="txtprofin" placeholder="Ingrese nota de proyecto final">
+                    <label for="txtprofin">Ingrese de proyecto final</label>
+                </div>
+                <button type="submit" class="btn btn-primary">CALCULAR PROMEDIO</button>
+                <hr />
+                <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
